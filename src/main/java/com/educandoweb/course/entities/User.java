@@ -20,7 +20,8 @@ public class User implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @EqualsAndHashCode.Include private Long id;
+    @EqualsAndHashCode.Include
+    private Long id;
     private String name;
     private String email;
     private String phone;
